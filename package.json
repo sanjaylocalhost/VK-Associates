@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   "build": "cd frontend && npm i && npm run build && mv dist ../dist",
+   "build": "cd frontend && npm i && npm run build ",
     "build:backend": "cd backend && npm i",
    "prod:start": "cd frontend && npm i && npm run dev && cd .. && cd backend && npm i && npm run start",
     "prod:backend:start": "cd backend && node ./server.js"
