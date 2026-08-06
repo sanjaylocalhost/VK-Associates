@@ -1,0 +1,24 @@
+{
+  "name": "vk-associates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   "build": "cd frontend && npm i && npm run build && mv dist ../dist",
+    "build:backend": "cd backend && npm i",
+   "prod:start": "cd frontend && npm i && npm run dev && cd .. && cd backend && npm i && npm run start",
+    "prod:backend:start": "cd backend && node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaylocalhost/VK-Associates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjaylocalhost/VK-Associates/issues"
+  },
+  "homepage": "https://github.com/sanjaylocalhost/VK-Associates#readme"
+}
