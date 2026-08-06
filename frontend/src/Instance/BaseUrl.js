@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // Create axios instance with base URL
 const BaseURL = axios.create({
-  baseURL: 'http://localhost:5000/api', // Make sure this matches your backend port
+  // baseURL: 'http://localhost:5000/api', // Make sure this matches your backend port
+   baseURL: 'https://vk-associates.onrender.com/api', // Make sure this matches your backend port
   headers: {
     'Content-Type': 'application/json',
   },
